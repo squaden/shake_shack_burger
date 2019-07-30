@@ -1,0 +1,39 @@
+body {
+  font-family: Geneva, sans-serif;
+  font-size: 18px;
+  color: #404040;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url(../images/burgers.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  font-family: Verdana, serif;
+  font-size: 200%;
+  margin-top: 0;
+  text-align: center;
+}
+
+.title-small {
+  font-family: Verdana, serif;
+  font-size: 120%;
+}
+
+.content {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 10px -10px 15px rgba(30, 30, 30, 0.5);
+}
+
+.content img {
+  display: block;
+  margin: 0 auto;
+  max-width: 85%;
+}
